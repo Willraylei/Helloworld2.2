@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.leibin.helloworld22.MainActivity">
+
+
+
+    <TextView
+      android:id="@+id/v01"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Red"
+        android:background="@color/colorAccent"
+         />
+    <TextView
+        android:id="@+id/v02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orange"
+        android:background="@color/Orange"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/v03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Yellow"
+        android:background="@color/Yellow"/>
+
+    <TextView
+        android:id="@+id/v04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/v02"
+        android:text="Blue"
+        android:background="@color/Blue"/>
+    <TextView
+        android:id="@+id/v05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/v04"
+        android:text="Green"
+        android:layout_alignBottom="@+id/v04"
+        android:layout_toLeftOf="@+id/v02"
+        android:layout_toStartOf="@+id/v02"
+        android:background="@color/Green"/>
+    <TextView
+        android:id="@+id/v06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indigo"
+        android:layout_alignBottom="@+id/v04"
+        android:layout_toRightOf="@+id/v02"
+        android:layout_toEndOf="@+id/v02"
+        android:background="@color/Indigo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Violet"
+        android:background="@color/Violet"
+        android:textAlignment="center"
+        android:layout_below="@id/v06"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
